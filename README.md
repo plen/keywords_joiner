@@ -1,11 +1,11 @@
-keywords_joiner
-===============
+## keywords_joiner ##
 
 The keywords joiner can combine up to 3 lists of keywords to generate a single list that contains the keywords from all 3 lists in every possible sequence.
 
 It works only with OS X or Unix-like systems like Linux.
 
-## Example: ##
+Example:
+========
 
 List A:
 apple
@@ -27,7 +27,9 @@ juicy orange
 
 
 
-## Usage Instructions ##
+Usage Instructions
+==================
+
 In the same folder as "keywords_joiner.rb", put at least 2 lists. Each keyword should be on a new line. Put your first list and name it A.txt, and your second list and name it B.txt. If you have a third list, you can also put your list C.txt in this folder.
 
 Now open up a terminal window, go to the folder containing "keywords_joiner.rb", and type "ruby keywords_joiner.rb".
